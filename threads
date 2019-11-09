@@ -31,8 +31,8 @@ void	disp_sorted(int *data)
 }
 
 /*
- *	thread function to display the average of the set of numbers periodically
- */
+ *	thread function to display the average of the set of numbers periodically */
+ 
 void 	disp_avg(float x)
 {
 	printf("the current average is: %f\n", x);
