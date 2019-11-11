@@ -31,7 +31,7 @@ static void vLEDTask0(void *pvParameters) {
 			Board_LED_Set(0,true);
 			vTaskDelay(configTICK_RATE_HZ*2);
 			Board_LED_Set(0,false);
-			vTaskDelay(configTICK_RATE_HZ*4);// delay is set to 1000ms means 1 second
+			vTaskDelay(configTICK_RATE_HZ*4);// configTICK_RATE_HZ delay is set to 1000 ms means 1 second
 
 		}
     }
