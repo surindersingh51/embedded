@@ -7,7 +7,7 @@ in this code red led is ON for first 2 sec and for next two sec blue led is ON a
 
 
 
-static void prvSetupHardware(void)  //setting up the hardwre 
+  static void prvSetupHardware(void)  //setting up the hardwre 
 {
 	SystemCoreClockUpdate();
 	Board_Init();
@@ -23,7 +23,7 @@ static void prvSetupHardware(void)  //setting up the hardwre
 
 
 /* LED1 toggle thread */
-static void vLEDTask0(void *pvParameters) {
+   static void vLEDTask0(void *pvParameters) {
 	//const TickType_t xDelay250ms = pdMS_TO_TICKS(250);
 	//bool LedState = false;
 
