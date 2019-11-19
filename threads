@@ -128,7 +128,7 @@ int main()
     	return 1;
     }
 
-   //using while loop
+      // by using while loop
    /* int 	user_int;
     printf("Please enter some positive integers... thanks\n");
     while (num_ints != MAXINTS)
