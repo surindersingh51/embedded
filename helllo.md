@@ -1,6 +1,6 @@
 // basic program of c 
 # include<stdio.h>
-int main()
+      int main()
 {
 printf("Hello!!!!! surinder");
 return 0;
