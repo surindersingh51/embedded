@@ -31,7 +31,7 @@ in this code red led is ON for first 2 sec and for next two sec blue led is ON a
 			Board_LED_Set(0,true);
 			vTaskDelay(configTICK_RATE_HZ*2);
 			Board_LED_Set(0,false);
-			vTaskDelay(configTICK_RATE_HZ*4);     //     configTICK_RATE_HZ delay is set to 1000 ms means 1 second
+			vTaskDelay(configTICK_RATE_HZ*4);         //     configTICK_RATE_HZ delay is set to 1000 ms means 1 second
 
 		}
     }
