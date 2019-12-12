@@ -28,7 +28,7 @@ void *threadFunction_1(void *value)
 
 void *threadFunction_2(void *value)
 {
-	int *x = (int *)value;    //cast the data passed to an int
+	   int *x = (int *)value;    //cast the data passed to an int
 
 	while(*x<MAXCOUNT)
 	{
