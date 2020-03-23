@@ -17,8 +17,7 @@ float 	average=0.0;	// global storage for the average
  *	function to display the set of numbers periodically
  */
 void	disp_sorted(int *data)
-{
-	if (num_ints != 0)
+{if (num_ints != 0)
 	{
 		printf("the current (sorted) integer set is: ");
 		for (int i=0; i!=num_ints; ++i)
