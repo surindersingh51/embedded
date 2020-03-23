@@ -4,7 +4,7 @@
 #include <pthread.h>
 #include <unistd.h>
 
-#define	MAXINTS		5 // maximum number of integers that user may enter
+#define	MAXINTS		5            // maximum number of integers that user may enter
 
 /*
  * 	global variables
