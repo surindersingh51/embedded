@@ -18,7 +18,7 @@ in this code red led is ON for first 2 sec and for next two sec blue led is ON a
 	Board_LED_Set(1, false);
 	
 
-	Board_LED_Set(2, false); //initially all the leds are off
+	Board_LED_Set(2, false);       //initially all the leds are off
 }
 
 
